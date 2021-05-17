@@ -1,0 +1,96 @@
+/*CSS DOCUMENT*/
+div.container{
+    max-width: 60em;
+    margin-right: 1em;
+    margin-left: 1em;
+}
+
+.image1 {
+    width: 25%; 
+}
+.image2{
+    width:100%;
+}
+h1{
+    width: auto;
+    margin-right: auto;
+    margin-left:auto;
+    margin-top:0.5em;
+    margin-bottom:0.2em;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: hobeaux, sans-serif;
+    font-weight: 1.4em;
+    font-size:2.5em;
+    font-style: italic;
+    color: rgb(217, 148, 67);
+}
+h2,h3{
+font-family: hobeaux, sans-serif;
+font-weight: 1em;
+font-size:1.3em;
+font-style:oblique;
+color: rgb(151, 183, 196);
+text-align: center;
+margin-bottom:0.2em;
+margin-top: .3em;
+}
+}
+h4{
+font-family: hobeaux, sans-serif;
+font-weight: 1.4em;
+font-size:1.5em;
+font-style: normal;
+color: rgb(97,70,20);
+text-transform:uppercase;
+text-align: left;
+}
+
+p{
+font-family: hobeaux, sans-serif;
+font-style: normal;
+margin-bottom: 1em;
+text-align: left;
+font-size: 1em;
+}
+
+
+footer{
+font-family: forma-djr-micro, sans-serif;
+font-style: normal;
+text-align: center;
+font-size: 0.7em;
+color: rgb:(217,148,67);
+}
+
+body{
+    background-color: rgb(255, 250, 240);
+}
+
+nav ul{
+    padding: 0;
+    margin-right: auto;
+    margin-left: auto;
+    text-align: center;
+}
+
+nav ul li{
+    display: inline;
+    list-style-type: none;
+    margin-right: 1em;
+    font-family: hobeaux, sans-serif;
+    font-weight:bold;
+    font-size: 1em;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+nav ul li a{
+    color: rgb(97, 70, 20);
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    color: rgb(217, 148, 67);
+}
+
+/*Please don’t change this CSS stylesheet for the content hierarchy assginment */
