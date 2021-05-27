@@ -17,7 +17,7 @@ h1{
     margin-left:auto;
     margin-top:0.5em;
     margin-bottom:0.2em;
-    text-align: center;
+    text-align: left;
     text-transform: uppercase;
     font-family: hobeaux, sans-serif;
     font-weight: 1.4em;
@@ -31,7 +31,7 @@ font-weight: 1em;
 font-size:1.3em;
 font-style:oblique;
 color: rgb(151, 183, 196);
-text-align: center;
+text-align: left;
 margin-bottom:0.2em;
 margin-top: .3em;
 }
@@ -54,24 +54,19 @@ text-align: left;
 font-size: 1em;
 }
 
-
 footer{
 font-family: forma-djr-micro, sans-serif;
 font-style: normal;
-text-align: center;
+text-align: left;
 font-size: 0.7em;
 color: rgb:(217,148,67);
-}
-
-body{
-    background-color: rgb(255, 250, 240);
 }
 
 nav ul{
     padding: 0;
     margin-right: auto;
     margin-left: auto;
-    text-align: center;
+    text-align: left;
 }
 
 nav ul li{
