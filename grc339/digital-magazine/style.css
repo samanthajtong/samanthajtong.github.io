@@ -1,0 +1,120 @@
+/*CSS document*/
+@import url("https://use.typekit.net/daf4cds.css");
+
+img {
+    width: 100%;
+}
+body {
+    font-family: mr-eaves-xl-modern, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    background-color: #FCF6F6;
+}
+
+div.container {
+    max-width: 40em;
+    margin: auto;
+}
+
+figure {
+    margin: 1 em 0em 2em 0em;
+    padding: 0;
+    margin:inherit;
+}
+
+h1 {
+    width: 40%;
+}
+h2{
+    font-family: hwt-artz, sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 2em;
+    letter-spacing: .04em;
+    line-height: 1em;
+    color: #777DA7;
+}
+
+h3{
+    font-family: hwt-artz, sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 1.5em;
+    letter-spacing: .04em;
+    line-height: 1em;
+    color: #777DA7;
+    margin-bottom: 0em;
+}
+
+main {
+    margin:0em;
+}
+
+main a {
+    text-decoration: none;
+    color: #625E5E;
+}
+
+main a:hover {
+    color: #767272; 
+}
+
+aside a {
+    text-decoration: none;
+    color: #625E5E;
+}
+
+aside a: hover {
+     color: #767272;
+}
+
+/*article {
+
+} */
+
+img {
+    width: 100%;
+    text-align: left;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.story {
+    margin: 0em 0em 2.5em 0em;
+}
+
+/*nav bar*/
+nav ul {
+    padding: 0;
+    margin-bottom: 1em;
+    word-spacing: 3em;
+    font-size: 1.3em;
+}
+
+nav ul li {
+    display: inline;
+    list-style-type: none;
+    font-family: hwt-artz, sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    text-transform: uppercase;
+    letter-spacing: .05em;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: #885053;
+}
+
+nav ul li a:hover{
+    color: #D5573B;
+}
+
+/*home page*/
+header {
+    text-align: left;
+    align-content: stretch;
+}
