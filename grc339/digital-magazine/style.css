@@ -2,8 +2,13 @@
 @import url("https://use.typekit.net/daf4cds.css");
 
 img {
-    width: 100%;
+    width; 100%;
 }
+
+header {
+        margin-bottom: 1em;
+}
+
 body {
     font-family: mr-eaves-xl-modern, sans-serif;
     font-weight: 400;
@@ -12,37 +17,32 @@ body {
 }
 
 div.container {
-    max-width: 80em;
-    margin: 0 auto;
+    max-width: 70em;
+    margin: auto;
 }
 
 section {
-    max-width: 60em;
-    margin: 0 auto 1em;
+    max-width: 40em;
+    margin: 0 auto .5em;
 }
 
 aside {
-    max-width: 40em;
-    margin: 0 auto 1em;
+    display: block;
+    padding-top: 0%;
 }
+
 figure {
-    margin: 1 em 0em 2em 0em;
-    padding: 0;
-    margin:auto;
+    margin: 1 em 0em 1em 0em;
+    margin: auto;
 }
 
-figcaption {
-    font-style:italic;
-    font-size: 0.9em;
-}
 
-header {
-        margin-bottom: 1.5em;
-}
 
 h1 {
     width: 40%;
+    padding: 0;
 }
+
 h2{
     font-family: hwt-artz, sans-serif;
     font-weight: 700;
@@ -65,30 +65,20 @@ h3{
 }
 
 main {
-    margin:0em;
+    margin: 0em;
 }
-
 main a {
     text-decoration: none;
     color: #625E5E;
+    padding: 0;
 }
-
-main a:hover {
-    color: #767272; 
-}
-
 aside a {
     text-decoration: none;
     color: #625E5E;
+    padding: 0;
 }
 
-aside a: hover {
-     color: #767272;
-}
-
-/*article {
-
-} */
+/*article*/
 
 img {
     width: 100%;
@@ -103,9 +93,8 @@ ul {
 /*nav bar*/
 nav ul {
     padding: 0;
-    margin-bottom: 1em;
     word-spacing: 3em;
-    font-size: 1.3em;
+    font-size: 1.5em;
 }
 
 nav ul li {
@@ -127,37 +116,32 @@ nav ul li a:hover{
     color: #D5573B;
 }
 
-/*home page*/
-header {
-    text-align: left;
-    align-content: stretch;
-}
-
-/*responsive screen */
+/*responsive screen size*/
 @media screen and (min-width: 60em) {
     
     div.container {
         display: grid;
         grid-template-columns: 3fr 1fr;
-        grid-gap: 0 1em;
+        grid-gap: 0 2em;
     }
     
-    header,
-    footer {
+    header{
 		grid-column: 1/3;
 	}
+    
+    main {
+		grid-column: 1/2;
+		display: grid;
+		grid-template-columns: repeat(3,1fr);
+		grid-gap: 0 2em;
+	}
+    
     header img {
 		max-width: 60%;
 	}
     aside {
 		grid-column: 2/3;
     }
-	main {
-		grid-column: 1/2;
-		display: grid;
-		grid-template-columns: repeat(3,1fr);
-		grid-gap: 0 1em;
-	}
     
     section.mainstory {
         grid-column: 2/4;
