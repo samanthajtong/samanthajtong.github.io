@@ -155,7 +155,6 @@ nav ul li a:hover{
     }
 main.newsletter {
 		display: block;
-        text-align: left;
 	}
 
 /*photo gallery */
@@ -178,11 +177,11 @@ nav.nav-photos {
 }
 
 label {
-  flex: 1 0 15em;
+  flex: 1 0 20em;
 }
 
 input {
-  display: none;
+  display: block;
 }
 
 figure.gallery {
@@ -225,26 +224,36 @@ button {
   cursor: pointer;
 }
     
-section.form {
-  margin: 0em 0em 2em 0em;
-}
-
 section.personal-info {
     margin: 0em 0em 1em 0em;
     }
 section.personal-info ul li {
 	display: flex;
-	flex-wrap: wrap;
 	margin-bottom: .5em;
 }
     
 section.personal-info ul li label {
-	flex: 0 0 8em;
+	flex: 0 0 5em;
 }
 
-section.personal-info ul li input {
-	flex: 1 0 24em;
+    section.form ul li {
+        display: flex;
+    }
+    
+    section.form ul li label {
+    flex: 0 0 15em;
+    }
+.personal-info ul li input[type="text"],
+.personal-info ul li select {
+	flex: 4 0 45em;
+    display: inline-block;
 }
+
+    .form ul li input[type="checkbox"],
+    section,form {
+    margin: 0em 1em .5em 0em;
+    }
+    
     section.box {
     margin: 0em 0em 1em 0em;
     font-family: hwt-artz, sans-serif;
@@ -277,8 +286,4 @@ ul {
 div.container-form {
   max-width: 55em;
   margin: auto
-}
-
-main.newsletter {
-  grid:none;
 }
