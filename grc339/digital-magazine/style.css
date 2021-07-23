@@ -237,7 +237,14 @@ section.personal-info ul li {
 	flex-wrap: wrap;
 	margin-bottom: .5em;
 }
+    
+section.personal-info ul li label {
+	flex: 0 0 8em;
+}
 
+section.personal-info ul li input {
+	flex: 1 0 24em;
+}
     section.box {
     margin: 0em 0em 1em 0em;
     font-family: hwt-artz, sans-serif;
@@ -259,6 +266,14 @@ textarea {
     margin-bottom: 10px;
 }
 
+form{
+    margin: auto;
+    }
+    
+ul {
+	padding: 0;
+	list-style-type: none;
+}
 div.container-form {
   max-width: 55em;
   margin: auto
