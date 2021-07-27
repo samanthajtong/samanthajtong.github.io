@@ -83,6 +83,14 @@ aside a {
     padding: 0;
 }
 
+.mainstory,
+.no-image-story,
+.story {
+	margin: .3em 0em 2em 0em;
+    padding: 0;
+	border-bottom: dashed #D5573B;
+}
+
 /*article*/
 
 img {
@@ -181,12 +189,12 @@ label {
 }
 
 input {
-  display: block;
+  display: none;
 }
 
 figure.gallery {
   margin: 0;
-  width: calc(100%-2em);
+  width: calc(90%-2em);
   opacity: 0;
   position: absolute;
   transition: opacity .5s;
@@ -223,6 +231,10 @@ button {
   padding: 10px;
   cursor: pointer;
 }
+
+.button ul li a:hover{
+    color: #D5573B;
+}
     
 section.personal-info {
     margin: 0em 0em 1em 0em;
@@ -245,13 +257,14 @@ section.personal-info ul li label {
     }
 .personal-info ul li input[type="text"],
 .personal-info ul li select {
-	flex: 4 0 45em;
+	flex: 4 0 20em;
     display: inline-block;
 }
 
     .form ul li input[type="checkbox"],
     section,form {
     margin: 0em 1em .5em 0em;
+    display: block;
     }
     
     section.box {
