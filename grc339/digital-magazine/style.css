@@ -83,14 +83,6 @@ aside a {
     padding: 0;
 }
 
-.mainstory,
-.no-image-story,
-.story {
-	margin: .3em 0em 2em 0em;
-    padding: 0;
-	border-bottom: dashed #D5573B;
-}
-
 /*article*/
 
 img {
